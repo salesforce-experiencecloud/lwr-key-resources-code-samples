@@ -1,0 +1,9 @@
+<template>
+    <p>Record id: {recordId}</p>
+    <template if:true={recordName}>
+        <p>Record name: {recordName}</p>
+    </template>
+    <template if:true={error}>
+        <p>Error: {error}</p>
+    </template>
+</template>
